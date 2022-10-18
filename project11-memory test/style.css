@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #ffffff;
+    height: 280px;
+    width: 280px;
+    border-radius: 20px;
+    /* display: none; */
+}
+
+#start {
+    height: 60px;
+    width: 150px;
+
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+
+    margin-top: 60px;
+    margin-left: 65px;
+    transition: all ease-in-out 0.1s;
+    
+    background-color: #4bd849;
+    color: #ffffff;
+}
+
+#start:hover {
+    background-color: #42c240;
+    font-size: 28px;
+}
+
+.set-time {
+    border: 1px solid #868282;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 165px;
+    border-radius: 20px;
+    margin-left: 55px;
+    overflow: hidden;
+}
+
+.time {
+    width: 70px;
+    height: 35px;
+    font-size: 18px;
+    color: #868282;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.two {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.three {
+    background-color: #4bd849;
+    color: #ffffff;
+}
+
+.r-btn {
+    display: none;
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    height: 204px;
+    border: none;
+    background-color: rgba(73, 72, 72, 0.767);
+
+    text-align: center;
+    font-size: 180px;
+    color: #ffffff;
+
+    margin: 2px;
+}
+
+.numbers {
+    font-size: 200px;
+}
+
+.box-animate:hover {
+    background-color: rgba(39, 39, 39, 0.767);
+    cursor: pointer;
+}
+
+#Congrats {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #ffffff;
+    height: 220px;
+    width: 300px;
+    border-radius: 20px;
+
+    display: none;
+}
+
+#Congrats h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 50px;
+
+    margin-top: 60px;
+}
+
+#Congrats button {
+    background-color: rgb(111, 209, 111);
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    
+    width: 180px;
+    height: 40px;
+
+    margin-left: 60px;
+    cursor: pointer;
+
+}
